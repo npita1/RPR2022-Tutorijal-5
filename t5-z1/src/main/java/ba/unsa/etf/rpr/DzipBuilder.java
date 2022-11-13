@@ -4,7 +4,7 @@ public class DzipBuilder implements AutoBuilder{
 
     private Auto auto;
 
-    public DzipBuilder(Auto auto) {
+    public DzipBuilder() {
         this.auto = auto;
     }
 

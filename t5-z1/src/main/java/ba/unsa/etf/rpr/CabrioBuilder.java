@@ -4,8 +4,8 @@ public class CabrioBuilder implements AutoBuilder{
 
     private Auto auto;
 
-    public CabrioBuilder(Auto auto) {
-        this.auto = auto;
+    public CabrioBuilder() {
+        this.auto = new Auto();
     }
 
     @Override
