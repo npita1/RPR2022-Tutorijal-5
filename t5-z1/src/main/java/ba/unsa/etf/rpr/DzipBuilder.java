@@ -20,11 +20,16 @@ public class DzipBuilder implements AutoBuilder{
 
     @Override
     public void gradiMjenjac() {
-
+        auto.postaviMjenjac("Manuelni");
     }
 
     @Override
     public void gradiBrzine() {
+        auto.postaviBrojBrzina(6);
+    }
 
+    @Override
+    public Auto getAuto() {
+        return this.auto;
     }
 }

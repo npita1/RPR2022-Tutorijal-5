@@ -27,4 +27,9 @@ public class CabrioBuilder implements AutoBuilder{
     public void gradiBrzine() {
         auto.postaviBrojBrzina(5);
     }
+
+    @Override
+    public Auto getAuto() {
+        return this.auto;
+    }
 }

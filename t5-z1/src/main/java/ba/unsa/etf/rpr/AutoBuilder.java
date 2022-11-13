@@ -6,4 +6,5 @@ public interface AutoBuilder {
     void gradiVrata();
     void gradiMjenjac();
     void gradiBrzine();
+    Auto getAuto();
 }
