@@ -5,6 +5,9 @@ public class App
     public static void main( String[] args )
     {
 
-        System.out.println( "Hello World!" );
+        PizzaFactory pizzaMajstor = new PizzaFactory();
+        Pizza mojaPizza = pizzaMajstor.naruciPizzu("Margarita");
+        mojaPizza.napraviPicu();
+
     }
 }
